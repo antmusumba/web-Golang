@@ -1,0 +1,105 @@
+:root {
+    --blue-900: #06222F;
+    --blue-800: #042D41;
+    --blue-700: #023D5A;
+    --blue-600: #02537A;
+    --blue-500: #0673A9;
+    --blue-400: #1E99D6;
+    --blue-300: #4DB6EA;
+    --blue-200: #8CD3F6;
+    --blue-100: #B9E6FC;
+    --blue-50: #E3F6FF;
+    --blue-25: #F1FAFF;
+    --white: #FFFFFF;
+}
+body{
+    background-color: var(--blue-900);
+}
+.container{
+    width: 100vw;
+}
+h1 {
+    font-family: Tahoma,sans-serif;
+    color:var(--blue-25);
+    text-align: center;
+}
+form{
+    font-family: Tahoma,sans-serif;
+    text-align: center;
+}
+.input-label{
+    color: var(--blue-25);
+    font-size: 1rem;
+}
+#input{
+    width: 60vw;
+    height: 10vh;
+    resize: none;
+    border: 1px solid var(--blue-100);
+    background-color: var(--blue-900);
+    font-size: 1rem;
+    color:var(--blue-25)
+}
+#input:focus{
+    border-color: var(--blue-100);
+    outline: none;
+}
+
+.my-select{
+    border: 1px solid var(--blue-100);
+    background-color: var(--blue-900);
+    padding: 0.5rem;
+    color :var(--blue-25);
+    font-size : 1rem;
+    transition:background-color 0.3s, color 0.3s; 
+
+}
+.my-select:hover{
+    background-color: var(--blue-25);
+    color: var(--blue-900);
+}
+.my-button{
+    border: 1px solid var(--blue-100);
+    background-color: var(--blue-900);
+    padding: 0.5rem;
+    margin-left: 20px;
+    color :var(--blue-25);
+    font-size : 1rem;
+    transition:background-color 0.3s, color 0.3s; 
+
+}
+.my-button:hover{
+    background-color: var(--blue-25);
+    color: var(--blue-900);
+}
+
+.result {
+    width: auto; /* Allow width to expand based on content */
+    min-height: 15vh; /* Minimum height for the container */
+    max-height: 50vh; /* Maximum height for the container */
+    overflow-x: auto; /* Horizontal scrolling if content overflows */
+    overflow-y: auto; /* Vertical scrolling if content overflows */
+    border: 1px solid var(--border-color); /* Border color for visual separation */
+    margin: 20px auto; /* Center the result container horizontally with margin */
+    padding: 10px; /* Padding inside the result container */
+    font-size: 0.5rem; /* Font size for content */
+    font-weight: 900; /* Bold font weight for visibility */
+    color: var(--text-light); /* Text color */
+    font-family: monospace; /* Monospace font for ASCII art */
+    white-space: pre-wrap; /* Preserve whitespace and wrap text */
+    box-sizing: border-box; /* Include border and padding in element's total width and height */
+    position: relative; /* Ensure positioning is relative for overflow control */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: scroll;
+}
+
+
+.header-link {
+    text-decoration: none; /* Removes underline from the link */
+    color: inherit; /* Inherits the text color from the parent element (the h1) */
+}
+
+.header-link:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+}
+

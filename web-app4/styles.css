@@ -1,0 +1,25 @@
+body {
+    background-color: #000; /* Light blue background */
+}
+
+div {
+    background-color: #8a7e7e; /* White background for the div */
+    padding: 20px; /* Padding inside the div */
+    margin: 20px; /* Margin outside the div */
+    border: 2px solid #333; /* Solid border around the div */
+}
+
+h1 {
+    margin: 0 0 10px 0; /* Margin below the heading */
+    padding: 10px; /* Padding inside the heading */
+    border: 2px solid #000; /* Border around the heading */
+    background-color: #ffe4b5; /* Light yellow background */
+}
+
+p {
+    padding: 15px; /* Padding inside the paragraph */
+    margin: 15px 0; /* Margin above and below the paragraph */
+    border: 1px dashed #0dee20; /* Dashed border around the paragraph */
+    background-color: #f5f5f5; /* Light gray background */
+    color: blueviolet;
+}
